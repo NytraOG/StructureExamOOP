@@ -4,7 +4,6 @@ namespace ClassLib.Harvester
 {
     public class HarvesterBase
     {
-        protected string harvesterId;
         protected float oreOutput;
         protected float energyRequirement;
 
@@ -28,7 +27,7 @@ namespace ClassLib.Harvester
                 }
                 else
                 {
-                    throw new Exception("Ore Ourput can't be negative!");
+                    throw new Exception("Ore Oreput can't be negative!");
                 }
             }
         }

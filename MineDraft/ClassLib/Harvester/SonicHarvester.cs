@@ -11,7 +11,10 @@ namespace ClassLib.Harvester
         public SonicHarvester(string harvesterId, float oreOutput, float energyRequirement, int sonicFactor) : base(harvesterId, oreOutput, energyRequirement)
         {
             SonicFactor = sonicFactor;
+            Type = "sonic";
         }
+
+        public string Type { get; }
 
         public int SonicFactor { get; set; }
 
