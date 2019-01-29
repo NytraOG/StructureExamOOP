@@ -45,6 +45,7 @@
     <Compile Include="Harvester\HarvesterBase.cs" />
     <Compile Include="Harvester\SonicHarvester.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Provider\Class1.cs" />
     <Compile Include="Provider\ProviderBase.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
