@@ -6,7 +6,7 @@
 
         public HammerHarvester(string harvesterId, float oreOutput, float energyRequirement, string type) : base(harvesterId, oreOutput, energyRequirement)
         {
-            Type = type;
+            Type = type.ToLower();
             EnergyRequirement *= 2;
             OreOutput *= 3;
         }

@@ -4,7 +4,7 @@
     {
         public SolarProvider(string id, float energyOutput, string type) : base(id, energyOutput)
         {
-            Type = type;
+            Type = type.ToLower();
         }
 
         public string Type { get; }

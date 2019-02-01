@@ -54,10 +54,6 @@
       <Project>{66c7faae-137c-43ba-9b19-91562d4d2be5}</Project>
       <Name>ClassLib</Name>
     </ProjectReference>
-    <ProjectReference Include="..\UnitTests\UnitTests.csproj">
-      <Project>{a1ba459b-55c9-4888-90c4-0d2f74404a7a}</Project>
-      <Name>UnitTests</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

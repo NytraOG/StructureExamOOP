@@ -4,7 +4,7 @@
     {
         public SonicHarvester(string harvesterId, float oreOutput, float energyRequirement, string type, int sonicFactor) : base(harvesterId, oreOutput, energyRequirement)
         {
-            Type = type;
+            Type = type.ToLower();
             SonicFactor = sonicFactor;
             EnergyRequirement /= sonicFactor;
         }

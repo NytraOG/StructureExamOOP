@@ -4,7 +4,7 @@
     {
         public PressureProvider(string id, float energyOutput, string type) : base(id, energyOutput)
         {
-            Type = type;
+            Type = type.ToLower();
             EnergyOutput *= 1.5f;
         }
 
