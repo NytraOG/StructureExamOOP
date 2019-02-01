@@ -41,12 +41,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Harvester\HammerHarvester.cs" />
-    <Compile Include="Harvester\HarvesterBase.cs" />
-    <Compile Include="Harvester\SonicHarvester.cs" />
+    <Compile Include="Business Logic\DraftManager.cs" />
+    <Compile Include="Models\Harvester\HammerHarvester.cs" />
+    <Compile Include="Models\Harvester\HarvesterBase.cs" />
+    <Compile Include="Models\Harvester\SonicHarvester.cs" />
+    <Compile Include="Models\ObjectGenerator\HarvesterGenerator.cs" />
+    <Compile Include="Models\ObjectGenerator\ProviderGenerator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Provider\Class1.cs" />
-    <Compile Include="Provider\ProviderBase.cs" />
+    <Compile Include="Models\Provider\PressureProvider.cs" />
+    <Compile Include="Models\Provider\ProviderBase.cs" />
+    <Compile Include="Models\Provider\SolarProvider.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

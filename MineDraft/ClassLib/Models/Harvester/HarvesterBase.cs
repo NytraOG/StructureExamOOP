@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ClassLib.Harvester
+namespace ClassLib.Models.Harvester
 {
     public class HarvesterBase
     {
